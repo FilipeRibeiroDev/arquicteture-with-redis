@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Arquicteture.API</name>
+    </assembly>
+    <members>
+        <member name="M:Arquicteture.API.Controllers.UserController.Get(System.String)">
+            <summary>
+            Get user in bd
+            </summary>
+            <param name="username"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Arquicteture.API.Controllers.UserController.Authenticate(Arquicteture.API.Model.AuthDTO)">
+            <summary>
+            Authenticate user in bd
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Arquicteture.API.Controllers.UserController.Post(Arquicteture.API.DTO.UserCreateDTO)">
+            <summary>
+            Creating user in bd
+            </summary>
+            <param name="userdto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Arquicteture.API.Controllers.UserController.Update(Arquicteture.API.DTO.UserUpdateDTO,System.String)">
+            <summary>
+             updating user in bd
+            </summary>
+            <param name="userDto"></param>
+            <param name="username"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Arquicteture.API.Controllers.UserController.Delete(System.String)">
+            <summary>
+            remove user
+            </summary>
+            <param name="username"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
